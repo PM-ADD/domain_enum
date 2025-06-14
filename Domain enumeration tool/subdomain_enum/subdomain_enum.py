@@ -2,7 +2,7 @@ import requests
 import threading
 
 
-domain = 'youtube.com'
+domain = 'testphp.vulnweb.com'
 
 with open('subdomains.txt','r') as file:
     subdomains = file.read().splitlines()
